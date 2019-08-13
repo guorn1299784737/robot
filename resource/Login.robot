@@ -4,6 +4,7 @@ Variables               ../config/url.py
 
 *** Variables ***
 ${BROWSER}              %{BROWSER}
+${LOGIN IN URL}         ${LOGIN IN URL}
 
 *** Keywords ***
 Login In
