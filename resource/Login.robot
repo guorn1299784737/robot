@@ -1,6 +1,6 @@
 *** settings ***
 Library                 SeleniumLibrary
-Variables               ./../config/url.py
+Variables               ../config/url.py
 
 *** Variables ***
 ${BROWSER}              %{BROWSER}
