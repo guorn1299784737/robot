@@ -1,1 +1,1 @@
-DOMAIN_NAME = 'http://zs.finace.com'
+DOMAIN_NAME = 'http://erp.spocoo.com'
