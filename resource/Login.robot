@@ -13,7 +13,9 @@ Login In
         Input Text      css:input#form-username    ${username}
         Input Password  css:input#form-password    ${password}
         Click Button    css:#submit
+        Sleep           3
         Element Should Contain    css:.layui-layer    登录成功
+        Sleep           5
         ${token} =     Get Cookie    token
         ${keeplogin} =     Get Cookie    keeplogin
         ${PHPSESSID} =     Get Cookie    PHPSESSID
