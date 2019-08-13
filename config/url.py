@@ -6,3 +6,5 @@ LOGIN_IN_URL = DOMAIN_NAME+"/login.php"
 LOGIN_OUT_URL = DOMAIN_NAME+"/login.php"
 
 TOTAL_TOTAL_INDEX_URL = DOMAIN_NAME+"/basicdata/total/total/index.html"
+
+ORDER_ORDER_INDEX_URL = DOMAIN_NAME+"/basicdata/order/order/index.html"
