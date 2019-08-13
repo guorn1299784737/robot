@@ -1,5 +1,5 @@
-from .common import DOMAIN_NAME
-
+# -*- coding: utf-8 -*-
+DOMAIN_NAME = 'http://erp.spocoo.com'
 # 登录链接
 LOGIN_IN_URL = DOMAIN_NAME+"/login.php"
 # 退出登录
