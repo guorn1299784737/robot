@@ -1,6 +1,6 @@
 *** settings ***
 Library                 SeleniumLibrary
-Resource                ../order/resource/Login.robot
+Resource                ../resource/Login.robot
 
 *** Variables ***
 ${BROWSER}              %{BROWSER}
