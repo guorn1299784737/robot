@@ -9,7 +9,7 @@ ${BROWSER}              %{BROWSER}
 Login In
         [Arguments]     ${username}    ${password}
         [Documentation]    用户登录
-        Open Browser    ${LOGIN_IN_URL}           ${BROWSER}
+        Open Browser    ${LOGIN IN URL}           ${BROWSER}
         Input Text      css:input#form-username    ${username}
         Input Password  css:input#form-password    ${password}
         Click Button    css:#submit
