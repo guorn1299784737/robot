@@ -14,9 +14,9 @@ Login In
         Input Password  css:input#form-password    ${password}
         Click Button    css:#submit
         Element Should Contain    css:.layui-layer    登录成功
-        ${token}    =     Get Cookie    token
-        ${keeplogin}    =     Get Cookie    keeplogin
-        ${PHPSESSID}     =     Get Cookie    PHPSESSID
+        ${token} =     Get Cookie    token
+        ${keeplogin} =     Get Cookie    keeplogin
+        ${PHPSESSID} =     Get Cookie    PHPSESSID
         Log             ${token}
         Log             ${keeplogin}
         Log             ${PHPSESSID}
