@@ -9,9 +9,9 @@ ${BROWSER}              %{BROWSER}
 Visit Login
         Login In         郭然宁    123456
         Go To            ${ORDER_ORDER_INDEX_URL}
-        ${token} = Get Cookie    token
-        ${keeplogin} = Get Cookie    keeplogin
-        ${PHPSESSID} = Get Cookie    PHPSESSID
+        ${token}    =     Get Cookie    token
+        ${keeplogin}    =     Get Cookie    keeplogin
+        ${PHPSESSID}     =     Get Cookie    PHPSESSID
         Log             ${token}
         Log             ${keeplogin}
         Log             ${PHPSESSID}
