@@ -1,0 +1,1 @@
+DOMAIN_NAME = 'http://zs.finace.com'
