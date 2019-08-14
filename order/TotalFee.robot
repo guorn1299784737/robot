@@ -7,7 +7,7 @@ ${BROWSER}              %{BROWSER}
 
 *** Test Cases ***
 Visit Login
-        Login In Finace         郭然宁    123456
+        Login In Finace         杨波    123456
         Sleep            1
         Go To            ${ORDER_ORDER_INDEX_URL}
         Title Should Be  费用统计  费用统计页面报错
