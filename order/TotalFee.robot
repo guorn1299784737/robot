@@ -8,6 +8,7 @@ ${BROWSER}              %{BROWSER}
 *** Test Cases ***
 Visit Login
         Login In         郭然宁    123456
+        Sleep            1
         Go To            ${ORDER_ORDER_INDEX_URL}
         ${locations} =    Get Locations
         Log              ${locations}
