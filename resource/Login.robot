@@ -23,5 +23,5 @@ Login In Finace
         [Arguments]     ${username}    ${password}
         [Documentation]    登录财务系统
         Login In        ${username}    ${password}
-        Click Link      css:#moduleTab_Opportunities
+        Click Link      id:moduleTab_Opportunities
         Sleep           2
