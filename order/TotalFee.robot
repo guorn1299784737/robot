@@ -12,6 +12,8 @@ Visit Login
         Go To            ${ORDER_ORDER_INDEX_URL}
         ${locations} =    Get Locations
         Log              ${locations}
+        ${cookie} =      Get Cookies    ture
+        Log              ${cookie}
         Title Should Be  费用统计  费用统计页面报错
         Select From List By Value  css:["data_type='data_type'"]  pre
         Click Button     css:["type='submit'"]
