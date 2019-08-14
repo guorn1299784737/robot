@@ -13,7 +13,7 @@ Login In
         Input Text      css:input#form-username    ${username}
         Input Password  css:input#form-password    ${password}
         Click Button    css:#submit
-        Sleep           1
+        Sleep           3
         Title Should Be    首页    登录不成功，未跳转到首页
 
 Login Out
@@ -24,4 +24,4 @@ Login In Finace
         [Documentation]    登录财务系统
         Login In        ${username}    ${password}
         Click Link      css:#moduleTab_Opportunities
-        Sleep           1
+        Sleep           2
