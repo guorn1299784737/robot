@@ -1,9 +1,11 @@
 *** settings ***
 Library                 SeleniumLibrary
-Suite Setup             Open Browser    https://www.baidu.com/           firefox
-Suite Setup             Maximize Browser Window
+Suite Setup             Init Browser
 
 *** Variables ***
 ${BROWSER}              %{BROWSER}
 
 *** Keywords ***
+Init Browser
+        Open Browser    https://www.baidu.com/           ${BROWSER}
+        Maximize Browser Window
