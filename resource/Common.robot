@@ -1,6 +1,5 @@
 *** settings ***
 Library                 SeleniumLibrary
-Test Setup             Init Browser
 
 *** Variables ***
 ${BROWSER}              %{BROWSER}

@@ -1,6 +1,7 @@
 *** settings ***
 Library                 SeleniumLibrary
 Resource                ../resource/Login.robot
+Test Setup             Init Browser
 
 *** Variables ***
 ${BROWSER}              %{BROWSER}
