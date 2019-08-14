@@ -15,12 +15,8 @@ Login In
         Click Button    css:#submit
         Sleep           3
         Title Should Be    首页    登录不成功，未跳转到首页
-        ${token} =     Get Cookie    token
-        ${keeplogin} =     Get Cookie    keeplogin
-        ${PHPSESSID} =     Get Cookie    PHPSESSID
-        Log             ${token}
-        Log             ${keeplogin}
-        Log             ${PHPSESSID}
+        ${cookie} =     Get Cookies    ture
+        Log             ${cookie}
         Log             登录成功
 
 Login Out
