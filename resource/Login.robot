@@ -14,8 +14,7 @@ Login In
         Input Password  css:input#form-password    ${password}
         Click Button    css:#submit
         Sleep           3
-        Element Should Contain    css:.layui-layer    登录成功
-        Sleep           5
+        Title Should Be    首页    登录不成功，未跳转到首页
         ${token} =     Get Cookie    token
         ${keeplogin} =     Get Cookie    keeplogin
         ${PHPSESSID} =     Get Cookie    PHPSESSID
