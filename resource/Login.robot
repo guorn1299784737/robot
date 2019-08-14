@@ -29,7 +29,7 @@ Login In Finace By Erp
 Login In Finace
         [Arguments]     ${username}    ${password}
         [Documentation]    登录财务系统
-        Open Browser    ${LOGIN IN URL}           ${BROWSER}
+        Open Browser    ${FANICE LOGIN IN URL}           ${BROWSER}
         Input Text      css:input#pd-form-username    ${username}
         Input Password  css:input#pd-form-password    ${password}
         Click Button    css:#submit

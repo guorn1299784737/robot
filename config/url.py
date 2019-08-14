@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 DOMAIN_NAME = 'http://zs.finace.com'
-# 登录链接
-LOGIN_IN_URL = DOMAIN_NAME+"/login.php"
+# erp登录链接
+ERP_LOGIN_IN_URL = DOMAIN_NAME+"/login.php"
+# 财务系统登录链接
+FANICE_LOGIN_IN_URL = DOMAIN_NAME+"/count/login"
 # 退出登录
 LOGIN_OUT_URL = DOMAIN_NAME+"/login.php"
 
