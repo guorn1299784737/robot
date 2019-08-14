@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-DOMAIN_NAME = 'http://erp.spocoo.com'
+DOMAIN_NAME = 'http://zs.finace.com'
 # 登录链接
 LOGIN_IN_URL = DOMAIN_NAME+"/login.php"
 # 退出登录
