@@ -7,7 +7,6 @@ ${BROWSER}              %{BROWSER}
 
 *** Test Cases ***
 Visit Total Fee Index
-        Maximize Browser Window
         Login In Finace         杨波    123456
         Sleep            1
         Go To            ${TOTAL_TOTAL_INDEX_URL}

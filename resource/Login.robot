@@ -1,6 +1,7 @@
 *** settings ***
 Library                 SeleniumLibrary
 Variables               ../config/url.py
+Resource                ./Common.robot
 
 *** Variables ***
 ${BROWSER}              %{BROWSER}
@@ -9,7 +10,7 @@ ${BROWSER}              %{BROWSER}
 Login In
         [Arguments]     ${username}    ${password}
         [Documentation]    用户登录
-        Open Browser    ${LOGIN IN URL}           ${BROWSER}
+        Go To           ${LOGIN IN URL}
         Input Text      css:input#form-username    ${username}
         Input Password  css:input#form-password    ${password}
         Click Button    css:#submit
@@ -29,7 +30,7 @@ Login In Finace By Erp
 Login In Finace
         [Arguments]     ${username}    ${password}
         [Documentation]    登录财务系统
-        Open Browser    ${FANICE LOGIN IN URL}           ${BROWSER}
+        Go To           ${FANICE LOGIN IN URL}
         Input Text      css:input#pd-form-username    ${username}
         Input Password  css:input#pd-form-password    ${password}
         Click Button    css:#submit
